@@ -1,0 +1,10 @@
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home
+export JAVA_HOME;
+M2_HOME=/usr/local/apache/apache-maven-3.6.0
+export M2_HOME;
+M2=$M2_HOME/bin
+export M2;
+MAVEN_OPTS="-Xms256m -Xmx512m"
+export MAVEN_OPTS;
+PATH=$M2:$PATH
+export PATH;

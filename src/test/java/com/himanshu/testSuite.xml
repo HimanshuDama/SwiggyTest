@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Swiggy TestSuite">
+
+    <test name="Tests in Firefox">
+
+        <parameter name="browsers" value="firefox"/>
+
+        <classes>
+            <class name="AllTests"/>
+        </classes>
+
+    </test>
+
+    <test name="Tests in Chrome">
+
+        <parameter name="browsers" value="chrome"/>
+
+        <classes>
+            <class name="AllTests"/>
+        </classes>
+
+    </test>
+
+</suite>
